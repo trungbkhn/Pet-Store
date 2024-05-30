@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "278476201129",
+    "project_id": "acquired-sound-421205",
+    "storage_bucket": "acquired-sound-421205.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278476201129:android:202082208e87df57651db8",
+        "android_client_info": {
+          "package_name": "com.example.animalfood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmjtFG00Trb4AIAnqfidORAER883F16FQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

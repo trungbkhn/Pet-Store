@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="215dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/custom_gray_bg"
+    android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@+id/img_picSeller"
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/avatar1"></ImageView>
+
+    <ImageView
+        android:id="@+id/btn_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/img_picSeller"
+        app:layout_constraintTop_toTopOf="@+id/img_picSeller"
+        app:srcCompat="@drawable/btn_2"
+        app:tint="@color/gray" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="$-"
+        android:layout_marginLeft="2dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/pink"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_picSeller" />
+
+    <TextView
+        android:id="@+id/tv_startCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="1"
+        android:textColor="@color/pink"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_price" />
+
+    <ImageView
+        android:id="@+id/imageViewBestSeller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_startCount"
+        app:layout_constraintEnd_toStartOf="@+id/tv_startCount"
+        app:layout_constraintTop_toTopOf="@+id/tv_startCount"
+        app:srcCompat="@drawable/star" />
+
+    <TextView
+        android:id="@+id/tv_title_bestSeller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
